@@ -1,0 +1,95 @@
+body{
+    margin: auto;
+    max-width: 600px;
+}
+
+
+
+#stage{
+
+    
+    height: 600px;
+    width: 600px;
+    background-color: #eee;
+    border: dashed 1px black;
+    padding: 10px;
+    position: relative;
+   
+
+}
+
+.hero{
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border: dashed 1px red;
+    animation-name: admin;
+    animation-duration: 17s;
+    animation-fill-mode: forwards;
+    top: 20px;
+    left: 20px;
+    box-sizing: border-box;
+    
+
+    
+
+} 
+
+@keyframes admin {
+    0%{
+        left: 20px;
+        top: 20px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+    }
+    29%{
+        left: 500px;
+        top: 20px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+    }
+    41%{
+        left: 500px;
+        top: 200px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+    }
+    44%{
+        left: 270px;
+        top: 200px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+    }
+
+
+    56%{
+        left: 270px;
+        top: 200px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+        transform: rotate(45deg);
+    }
+
+    76%{
+        left: 20px;
+        top: 200px;
+        transform: none;
+        border-radius: 0;
+        background: transparent;
+    }
+    
+    100%{
+        left: 475px;
+        top: 475px;
+        transform: none;
+        border-radius: 0;
+        border-radius: 50%;
+        background: radial-gradient(#F76b1c, #fbda61);
+        transform: scale(2);
+    }
+}
